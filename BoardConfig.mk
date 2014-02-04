@@ -28,12 +28,6 @@
 
 LOCAL_PATH := device/motorola/xt925
 
-# NFC
-BOARD_HAVE_NFC := true
-
-# Inline kernel building
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.6/bin/arm-eabi-
-
 #bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
